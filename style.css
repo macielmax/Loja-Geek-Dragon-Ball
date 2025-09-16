@@ -1,0 +1,11 @@
+.fundofixo {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    background-image: url(img/Comicfundo+.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1000px;
+    width: 1530px;
+    opacity: 0.2;
+}
