@@ -2,6 +2,7 @@
     margin-inline: auto;
     padding: 6px;
     overflow: hidden;
+    transform: translateZ(0);
     height: 50px;
 
     max-width: 100%;
@@ -27,6 +28,10 @@
     align-items: center;
 }
 
+.scroll-item img {
+    transform: translateZ(0);
+}
+
 .scroll-item i {
     padding-top: -4px;
 }
@@ -40,14 +45,16 @@
 
 .scroll-container {
     display: flex;
-    gap: 90px;
+    gap: 120px;
     max-width: max-content;
     animation: Scroll-Infinito 25s linear infinite;
+    will-change: transform;
+    transform: translateZ(0);
 
 }
 
 @keyframes Scroll-Infinito {
     100% {
-        translate: calc(-50% - 45px);
+        translate: calc(-50% - 60px);
     } 
 }
