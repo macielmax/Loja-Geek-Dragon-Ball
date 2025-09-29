@@ -25,8 +25,7 @@
 ## Descrição do Projeto
 **A Loja-Geek-Dragon-Ball** é um projeto de e-commerce especializado na venda de produtos licenciados e temáticos do universo de Dragon Ball. O objetivo é atender a um nicho de mercado específico, oferecendo uma variedade de itens de alta qualidade, desde vestuário até colecionáveis e acessórios. A loja se posicionará como um ponto de referência para os fãs da franquia no Brasil, construindo uma comunidade engajada e oferecendo uma experiência de compra focada na paixão pelo anime.
 
-Para acessar o projeto online clique ______
-
+Para acessar o projeto online clique [AQUI](pedhensilva.github.io/Loja-Geek-Dragon-Ball/#)
 ## Tecnologias Utilizadas
 
 
