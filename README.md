@@ -1,6 +1,7 @@
 # **Loja-Geek-Dragon-Ball**
 <div align-"center">
-<img width="946" height="413" alt="Captura de tela 2025-09-29 090335" src="https://github.com/user-attachments/assets/71c2b0b3-40ea-43fb-8104-1bcc73ad63c4" />
+
+<img width="946" height="413" alt="Captura de tela 2025-09-29 090335" src="https://github.com/user-attachments/assets/43676a77-d29e-4f18-bcc9-d771c2ac8060" />
 </div>
 
 
