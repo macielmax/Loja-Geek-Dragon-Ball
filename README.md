@@ -28,7 +28,7 @@
 **Nossa Loja Geek de Dragon Ball** é um projeto de e-commerce especializado na venda de produtos licenciados e temáticos do universo de Dragon Ball. O site oferece uma variedade de itens de alta qualidade, desde vestuário até colecionáveis e acessórios. A loja se posicionará como um ponto de referência para os fãs da franquia no Brasil, construindo uma comunidade engajada e oferecendo uma experiência de compra focada e imersiva.
 
 
-Para acessar o projeto online clique [AQUI](https://pedhensilva.github.io/Loja-Geek-Dragon-Ball/)  ![2ab81883aa710d1dcf682eb0813b80db0431c7f6r1-379-200_hq-ezgif com-rotate v5](https://github.com/user-attachments/assets/19ac5fc2-978a-44d9-a05c-c86d630e81c0)
+Para acessar o projeto online clique [AQUI](https://pedhensilva.github.io/Loja-Geek-Dragon-Ball/)   ![2ab81883aa710d1dcf682eb0813b80db0431c7f6r1-379-200_hq-ezgif com-rotate v5](https://github.com/user-attachments/assets/19ac5fc2-978a-44d9-a05c-c86d630e81c0)
 
 
 ## <img width="45" height="45" alt="kuririn" src="https://github.com/user-attachments/assets/035dbe2f-3b05-4923-be75-72034293b686" /> Tecnologias Utilizadas! </h2>
