@@ -48,11 +48,11 @@ Para acessar o projeto online clique [AQUI](https://pedhensilva.github.io/Loja-G
    
 # **Acessos autorizados para Login:**
    
-   ● login: Bulma, password: 123, Email: bulma@gmail.com
+   ● login: Bulma, Senha: 123, Email: bulma@gmail.com
    
-   ● login: Vegeta, senha: 1234, Email: vegeta@gmail.com
+   ● login: Vegeta, Senha: 1234, Email: vegeta@gmail.com
    
-   ● login: kuririn, password: 12345, Email: kuririn@gmail.com
+   ● login: Kuririn, Senha: 12345, Email: kuririn@gmail.com
 
 
 
