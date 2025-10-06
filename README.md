@@ -41,6 +41,7 @@ Para acessar o projeto online clique [AQUI](https://pedhensilva.github.io/Loja-G
 ● CSS3 - Folha de estillos para estilização do site
 
 ● JavaScript - Login em JSON para verificação e armazenamento de dados
+   
    **Acessos autorizados para Login:**
    login: Bulma, password: 123, Email: bulma@gmail.com
    login: Vegeta, senha: 1234, Email: vegeta@gmail.com
