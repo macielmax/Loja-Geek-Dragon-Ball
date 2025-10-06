@@ -1,9 +1,7 @@
 # **Loja-Geek-Dragon-Ball**
 <div align-"center">
 
-<img width="946" height="413" alt="Captura de tela 2025-09-29 090335" src="https://github.com/user-attachments/assets/43676a77-d29e-4f18-bcc9-d771c2ac8060" />
-</div>
-
+<img width="940" height="437" alt="Captura de tela 2025-10-06 105637" src="https://github.com/user-attachments/assets/d658b735-a7eb-4dcc-a1e3-9d08fdb2b4d6" />
 
 ## <img width="45" height="45" alt="freeza" src="https://github.com/user-attachments/assets/4bc37c62-93e9-4f0a-b26f-ba26b55a9f75" /> Nomes dos Integrantes </h2>
 
