@@ -35,7 +35,7 @@ Para acessar o projeto online clique [AQUI](https://pedhensilva.github.io/Loja-G
 
 ## <img width="45" height="45" alt="kuririn" src="https://github.com/user-attachments/assets/035dbe2f-3b05-4923-be75-72034293b686" /> Tecnologias Utilizadas! </h2>
 <div align-"justify">
-<img width="160" height="80" background="transparent" alt="html5 v2" src="https://github.com/user-attachments/assets/0008e88c-5064-424f-ae26-1a6688011eab" /><img width="160" height="80" alt="css3 v2" src="https://github.com/user-attachments/assets/284f87d1-d8e8-4c29-acc5-df4920185d78" /><img width="160" height="80" alt="javascript v2" src="https://github.com/user-attachments/assets/0fa85e52-6014-44e7-8dc7-fb1976b2a3c6" /><img width="160" height="80" alt="bootstrap v2" src="https://github.com/user-attachments/assets/333601a5-ea62-4e4a-a4ab-06b7c6478f4a" /><img width="160" height="80" alt="fonte awesome v2" src="https://github.com/user-attachments/assets/30630401-4308-4a02-832f-84a16931a38d" />
+<img width="160" height="80" alt="html5 v2" src="https://github.com/user-attachments/assets/0008e88c-5064-424f-ae26-1a6688011eab" /><img width="160" height="80" alt="css3 v2" src="https://github.com/user-attachments/assets/284f87d1-d8e8-4c29-acc5-df4920185d78" /><img width="160" height="80" alt="javascript v2" src="https://github.com/user-attachments/assets/0fa85e52-6014-44e7-8dc7-fb1976b2a3c6" /><img width="160" height="80" alt="bootstrap v2" src="https://github.com/user-attachments/assets/333601a5-ea62-4e4a-a4ab-06b7c6478f4a" /><img width="160" height="80" alt="fonte awesome v2" src="https://github.com/user-attachments/assets/30630401-4308-4a02-832f-84a16931a38d" />
 </div>
 
 ● HTML5 - Estrutura e navegação pelo conteúdo do site
