@@ -44,15 +44,15 @@ Para acessar o projeto online clique [AQUI](https://pedhensilva.github.io/Loja-G
 
 ● Font Awesome 6 - Biblioteca para Ícones
 
-● JavaScript - Login em JSON para verificação e armazenamento de dados
+● JavaScript - Login em JSON para armazenamento e verificação de dados
    
-# **Acessos autorizados para Login:**
+## <img width="45" height="45" alt="vegeta" src="https://github.com/user-attachments/assets/0761e713-f4cb-460b-905c-b94840b6396e" /> **Acessos autorizados para Login** </h2>
    
-   ● login: Bulma, Senha: 123, Email: bulma@gmail.com
+   ● Bulma - E-mail: bulma@gmail.com - Senha: 123
    
-   ● login: Vegeta, Senha: 1234, Email: vegeta@gmail.com
+   ● Vegeta - E-mail: vegeta@gmail.com - Senha: 1234
    
-   ● login: Kuririn, Senha: 12345, Email: kuririn@gmail.com
+   ● Kuririn - E-mail: kuririn@gmail.com - Senha: 12345
 
 
 
