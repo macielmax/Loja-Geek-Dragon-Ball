@@ -44,7 +44,7 @@ Para acessar o projeto online clique [AQUI](https://pedhensilva.github.io/Loja-G
 
 ● Font Awesome 6 - Biblioteca para Ícones
 
-● JavaScript - Login em JSON para armazenamento e verificação de dados
+● JavaScript - Login para armazenamento e verificação de dados
 
 ## <img width="45" height="45" alt="vegeta" src="https://github.com/user-attachments/assets/ff1090a5-4c81-4a2c-bc4a-99f2f8312aee" /> Acessos autorizados para Login </h2>
 
