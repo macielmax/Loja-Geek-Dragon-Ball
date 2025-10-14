@@ -40,7 +40,7 @@ Para acessar o projeto online clique [AQUI](https://pedhensilva.github.io/Loja-G
 
 ● CSS3 - Folha de estillos para estilização do site
 
-● Bootstrap 5 - Framework para design e componentes responsivos
+● Bootstrap 5 - Framework para design e componentes
 
 ● Font Awesome 6 - Biblioteca para Ícones
 
