@@ -1,3 +1,5 @@
+/* Login CSS */
+
 * {
     margin: 0;
     padding: 0;
@@ -264,4 +266,63 @@ small.form-text{
 
 #senha:focus {
     width: 370px;
+}
+
+/* Footer */
+
+.fundofooter {
+    margin-top: 5%;
+
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    background-color: #000000;
+    background-attachment: scroll;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+.titulo {
+    width: 100%;
+    color: #ff8400;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 2%;
+}
+
+.titulo h4 {
+    font-size: 22px;
+    font-family: OutfitEL;
+    margin-left: 5%;
+}    
+
+.titulo h3 {
+    font-size: 28px;
+    font-family: Russo;
+    margin-left: 5%;
+}
+
+.logos {
+    max-width: 1000px;
+    display: flex;
+    justify-content: flex-end center;
+    align-items: center;
+}
+
+.logos img{
+    width: 20%
+}
+
+.logos img:last-child{
+    margin-left: 10%;
+}
+
+.logos img:not(:last-child) {
+    margin-left: 10%;
 }
