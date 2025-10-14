@@ -3,17 +3,89 @@
 <head>
     <!--CSS-->
     <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="loading.css">
 
     <!--Icone Aba-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!--Icones-->
+    <script src="https://kit.fontawesome.com/0c7fbaa498.js" crossorigin="anonymous"></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre</title>
 </head>
 <body>
-    <h1>Página "Sobre" em andamento</h1>
+
+    <!--Loading-->
+    <div class="preloader" id="preloader">
+  		<div class="loader" id="loader"></div>
+	</div>
+
+    <!--Header-->
+    <header>
+        <div class="container-fluid">
+            <div class="logo">
+                <img src="img/Adobe Express - file (1).png" alt="DBOSlogo">
+            </div>
+            <div class="menu">
+                <nav>
+                    <a href="index.html" target="_self">Home</a>
+                    <a href="sobre.html" target="_blank">Sobre</a>
+                    <a href="https://github.com/PedHenSilva/Loja-Geek-Dragon-Ball" target="_blank">GitHub</a>
+                </nav>
+            </div>
+            <div class="socials">
+                <button>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+
+                <a href="cadastro.html">
+                    <button>
+                        <i class="fa-solid fa-user"></i>
+                    </button>
+                </a>
+            </div>    
+        </div>
+    </header>
+
+    <div class="banner">
+        <img src="img/BannerSobre.png" alt="BannerInicial">
+    </div>
+
+    <div class="container">
+        <h1>SOBRE A LOJA</h1>
+        <img class="Top" src="img/header_goku.png" alt="GokuTopo">
+        <p>A Loja Geek Dragon Ball nasceu da paixão por um dos universos mais épicos de todos os tempos. Aqui, cada produto carrega a energia de uma verdadeiro Genki-Dama.</p>
+        <p class="p1">Mais do que uma loja, somos um espaço feito por fãs e para fãs. Reunimos action figures, roupas, acessórios, itens colecionáveis e decorações inspiradas em Dragon Ball que marcaram gerações. Cada detalhe, foi criado com o mesmo cuidado que Goku dedica aos seus treinos.</p>
+        <p class="p1">Nosso objetivo é oferecer uma experiência autêntica, unindo qualidade, estilo e nostalgia em um só lugar. Queremos que cada visita ao site seja como abrir um novo arco cheio de descobertas e boas memórias.</p>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="fundofooter">
+            <div class="footer">            
+                <div class="titulo">
+                    <div>
+                    <h4>
+                        Av. Luiz Merenda, 443 - Campanário, Diadema
+                    </h4>
+                    <br>
+                    <h3>
+                        Copyright © 2025 | Todos os direitos reservados.
+                    </h3>
+                </div>
+                <div class="logos">
+                    <img src="img/DBlogo.png" alt="DBClássico">
+                    <img src="img/DBZLogo.png" alt="DragonBallZ">
+                    <img src="img/DBSLogo.png" alt="DragonBallSuper">
+                </div>
+            </div>  
+        </div>
+    </footer>
+
+    <script src="script_preloader.js"></script>
     
 </body>
 </html>
