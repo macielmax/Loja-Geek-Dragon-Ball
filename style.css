@@ -168,6 +168,13 @@ header {
     max-height: 550px;
 }
 
+/* Divisor Shenlong */
+
+.container-fluid-cards .seção-card img {
+    max-width: 200px;
+    width: 100%;
+}
+
 /* Footer */
 
 .fundofooter {
@@ -225,4 +232,5 @@ header {
 
 .logos img:not(:last-child) {
     margin-left: 10%;
+
 }
