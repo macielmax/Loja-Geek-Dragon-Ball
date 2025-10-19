@@ -27,13 +27,10 @@
 }
 
 .container-fluid-cards{
-    margin-bottom: 50px;
     margin-top: 80px !important;
     margin-bottom: 50px !important;
     width: 100%;
     margin: auto;
-    /*margin-left: 60px;
-    margin-right: 60px;*/
     height: 107px;
     padding: auto;
     border-radius: 10px 10px 10px 10px;
@@ -47,7 +44,6 @@
 
 
 }
-
 
 .seção-card{
     font-family: Russo;
@@ -64,7 +60,6 @@
     height: min-content;
 }
 
-
 .card1-1{
     height: 380px;
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.247);
@@ -73,7 +68,6 @@
     width: 15rem;
   
 }
-
 
 .card1-2{
     height: 380px;
@@ -145,6 +139,7 @@ h6{
     font-family: OutfitEL;
     font-size: 16px;
 }
+
 
 
 
