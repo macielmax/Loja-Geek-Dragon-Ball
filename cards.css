@@ -28,7 +28,7 @@
 
 .container-fluid-cards{
     margin-bottom: 50px;
-    margin-top: 50px !important;
+    margin-top: 80px !important;
     margin-bottom: 50px !important;
     width: 100%;
     margin: auto;
@@ -145,5 +145,6 @@ h6{
     font-family: OutfitEL;
     font-size: 16px;
 }
+
 
 
