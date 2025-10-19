@@ -50,6 +50,7 @@ body {
     width: 100%;
     margin: auto;
     height: 107px;
+    padding: 0;
 
 
     display: flex;
@@ -60,14 +61,15 @@ body {
 
 header {
     background-color: black;
-    width: 100%;
+    width: inherit;
     height: 95px;
 }
 
 .logo img {
     max-width: 204px;
-    width: 100%;
+    width: inherit;
     padding-bottom: 14%;
+    vertical-align: 0;
 }
 
 .menu {
@@ -118,7 +120,7 @@ header {
 }
 
 .socials {
-    display: flex;
+    display: inherit;
 }
 
 .socials button {
@@ -159,19 +161,19 @@ main {
     width: 100%;
     max-width: 430px;
     max-height: 465px;
-    height: auto;
+    height: inherit;
     background-image: linear-gradient(45deg, #ff2500, #e78d44);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
     border-radius: 15%;
 }
 
 form {
-    display: flex;
+    display: inherit;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: inherit;
+    align-items: inherit;
     height: 100%;
     max-height: 500px;
     gap: 10px;
@@ -186,19 +188,15 @@ form {
 
 button.btn-login {
     width: 12%;
-    margin-top: 45px;
-    margin-bottom: 5px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    padding-right: 50px;
-    padding-left: 50px;
+    margin: 45px 0 5px 0;
+    padding: 5px 50px 5px 50px;
     background-color: transparent;
     border-radius: 50px;
     border: white 1px solid;
-    display: flex;
+    display: inherit;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: inherit;
+    align-items: inherit;
     font-family: Russo;
     font-size: 18px;
     color: azure;
@@ -225,9 +223,9 @@ input.form-control.input-login {
 .form-group {
     margin-top: 5%;
     width: 50%;
-    display: flex;
+    display: inherit;
     flex-direction: column;
-    align-items: center;
+    align-items: inherit;
     justify-content: space-evenly;
 }
 
@@ -291,8 +289,8 @@ small.form-text{
     width: 100%;
     color: #ff8400;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: inherit;
+    justify-content: inherit;
     margin-top: 2%;
 }
 
@@ -310,7 +308,7 @@ small.form-text{
 
 .logos {
     max-width: 1000px;
-    display: flex;
+    display: inherit;
     justify-content: flex-end center;
     align-items: center;
 }

@@ -50,6 +50,7 @@ body {
     width: 100%;
     margin: auto;
     height: 107px;
+    padding: 0;
 
 
     display: flex;
@@ -60,14 +61,15 @@ body {
 
 header {
     background-color: black;
-    width: 100%;
+    width: inherit;
     height: 95px;
 }
 
 .logo img {
     max-width: 204px;
-    width: 100%;
+    width: inherit;
     padding-bottom: 14%;
+    vertical-align: 0;
 }
 
 .menu {
@@ -76,12 +78,12 @@ header {
     padding-top: 3px;
     font-family: Russo;
 
-    display: flex;
+    display: inherit;
     justify-content: center;
-    align-items: center;
+    align-items: inherit;
 }
 .menu nav {
-    display: flex;
+    display: inherit;
     gap: 42px;
 }
 
@@ -118,7 +120,7 @@ header {
 }
 
 .socials {
-    display: flex;
+    display: inherit;
 }
 
 .socials button {
@@ -141,6 +143,59 @@ header {
     padding-top: 5px;
 }
 
+/* Sobre */
+
+.banner img{
+    position: relative;
+    max-width: 1600px;
+    width: 100%;
+    max-height: auto;
+    height: 100%;
+
+}
+
+.Top {
+    max-width: 500px;
+    width: inherit;
+
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    max-height: 1200px;
+    height: 725px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    border: #ff8400 10px solid;
+    margin: 5% auto 5% auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    font-family: Russo;
+    color: #ff8400;
+
+    margin-top: 1%;
+    display: inherit;
+    justify-content: inherit;
+}
+
+.container p {
+    margin: 0% 4%;
+    font-size: 22px;
+    color: black;
+    font-family: OutfitEL;
+    font-weight: 50;
+    text-shadow: 1px 1px 8px Rgba(194, 87, 0, 0.712);
+    text-align: justify;
+    padding: 40px 40px 0 40px
+}
+
 /* Footer */
 
 .footer {
@@ -156,11 +211,11 @@ header {
 }
 
 .titulo {
-    width: 100%;
+    width: inherit;
     color: #ff8400;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: inherit;
+    justify-content: inherit;
     margin-top: 2%;
 }
 
@@ -180,7 +235,7 @@ header {
 
 .logos {
     max-width: 1000px;
-    display: flex;
+    display: inherit;
     justify-content: flex-end center;
     align-items: center;
 }
@@ -195,63 +250,4 @@ header {
 
 .logos img:not(:last-child) {
     margin-left: 10%;
-}
-
-/* Sobre */
-
-.container h1 {
-    font-family: Russo;
-    color: #ff8400;
-    
-    -webkit-text-stroke-color: black;
-
-    margin-top: 1%;
-    display: flex;
-    justify-content: center;
-}
-
-.banner img{
-    position: relative;
-    max-width: 1600px;
-    width: 100%;
-    max-height: auto;
-    height: 100%;
-
-}
-
-img {
-    max-width: 500px;
-    width: 100%;
-
-}
-
-.container {
-    max-width: 700px;
-    width: 100%;
-    max-height: 1200px;
-    height: 725px;
-    margin: auto;
-    border-radius: 20px;
-    background-color: whitesmoke;
-    border: #ff8400 10px solid;
-    margin-top: 5%;
-    margin-bottom: 5%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.container p {
-    margin: 0% 4%;
-    font-size: 22px;
-    color: black;
-    font-family: OutfitEL;
-    font-weight: 50;
-    text-shadow: 1px 1px 8px Rgba(194, 87, 0, 0.712);
-    text-align: justify;
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
 }

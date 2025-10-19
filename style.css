@@ -51,6 +51,7 @@ body {
     width: 100%;
     margin: auto;
     height: 107px;
+    padding: 0;
 
 
     display: flex;
@@ -61,14 +62,14 @@ body {
 
 header {
     background-color: black;
-    width: 100%;
+    width: inherit;
     height: 95px;
 }
 
 .logo img {
     max-width: 204px;
-    width: 100%;
-    height: auto;
+    width: inherit;
+    vertical-align: 0;
     padding-bottom: 14%;
 }
 
@@ -78,12 +79,12 @@ header {
     padding-top: 3px;
     font-family: Russo;
 
-    display: flex;
+    display: inherit;
     justify-content: center;
-    align-items: center;
+    align-items: inherit;
 }
 .menu nav {
-    display: flex;
+    display: inherit;
     gap: 42px;
 }
 
@@ -120,7 +121,7 @@ header {
 }
 
 .socials {
-    display: flex;
+    display: inherit;
 }
 
 .socials button {
@@ -156,14 +157,14 @@ header {
 }
 
 .carousel-inner {
-    width: 100%;
+    width: inherit;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);;
     object-fit: contain;
 }
 
 .carousel-item img {
-    width: 100%;
-    object-fit: contain;
+    width: inherit;
+    object-fit: inherit;
     height: auto;
     max-height: 550px;
 }
@@ -195,11 +196,11 @@ header {
 }
 
 .titulo {
-    width: 100%;
+    width: inherit;
     color: #ff8400;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
     margin-top: 2%;
 }
 
@@ -217,7 +218,7 @@ header {
 
 .logos {
     max-width: 1000px;
-    display: flex;
+    display: inherit;
     justify-content: flex-end center;
     align-items: center;
 }
