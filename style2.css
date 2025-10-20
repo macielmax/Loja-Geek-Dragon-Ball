@@ -15,6 +15,27 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(204, 197, 197, 0.35);
+    z-index: -1;
+}
+
+:root {
+  --color-dominante: #FF8C00;
+  --color-secundaria: #1A237E;
+  --color-contraste: #FFEB3B;
+  --color-branco: #F5F5F5;
+  --color-preto: #212121;
+  --color-hover: #E9B27F;
+}
+
 @font-face {
     font-family: 'Russo';
     src: url(Fontes/RussoOne-Regular.ttf);
@@ -82,14 +103,13 @@ header {
     justify-content: center;
     align-items: inherit;
 }
-
 .menu nav {
     display: inherit;
     gap: 42px;
 }
 
 .menu nav a{
-    color: #ff8400;
+    color: var(--color-dominante);
     text-decoration: none;
     font-size: 24px;
     height: auto;
@@ -105,8 +125,7 @@ header {
     top: 30px;
     left: 0;
     position: absolute;
-    background-image: linear-gradient(45deg, #ffeb3b, #ff8400);
-
+    background-image: linear-gradient(45deg, var(--color-contraste), var(--color-dominante));
 }
 
 .menu nav a:hover::after {
@@ -118,7 +137,7 @@ header {
 }
 
 .menu nav a:hover {
-    color: #e9b27f;
+    color: var(--color-hover);
 }
 
 .socials {
@@ -128,20 +147,21 @@ header {
 .socials button {
     width: 50px;
     height: 50px;
-    background-color: #ff8400;
+    background-color: var(--color-dominante);
     border: none;
     border-radius: 15px;
     margin-right: 8px;
     cursor: pointer;
     transition: background-color 0.3s;
+
 }
 
 .socials button:hover {
-    background-color: #1a237e;
+    background-color: var(--color-secundaria);
 }
 
 .socials button:hover i {
-    color: #ffeb3b;
+    color: var(--color-contraste);
 }
 
 .socials button i {
@@ -175,7 +195,7 @@ header {
     height: 725px;
     border-radius: 20px;
     background-color: whitesmoke;
-    border: #ff8400 10px solid;
+    border: var(--color-dominante) 10px solid;
     margin: 5% auto 5% auto;
 
     display: flex;
@@ -186,9 +206,9 @@ header {
 
 .container h1 {
     font-family: Russo;
-    color: #ff8400;
-
+    color: var(--color-dominante);
     margin-top: 1%;
+    
     display: inherit;
     justify-content: inherit;
 }
@@ -207,13 +227,13 @@ header {
 /* Footer */
 
 .fundofooter {
-    margin-top: 120px;
+    margin-top: 5%;
 }
 
 .footer {
     width: 100%;
     background-color: black;
-    color: #F5F5F5;
+    color: var(--color-branco);
     padding: 25px 6%;
     gap: 20px;
 
@@ -239,7 +259,7 @@ header {
     font-family: OutfitEL;
     font-weight: normal;
     margin: 0;
-    color: #ffeb3b;
+    color: var(--color-contraste);
 }
 
 .titulo h3 {
@@ -247,7 +267,7 @@ header {
     font-family: Russo;
     font-weight: normal;
     margin: 0;
-    color: #ff8400;
+    color: var(--color-dominante);
 }
 
 .logos {

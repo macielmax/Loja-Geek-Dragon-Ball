@@ -1,104 +1,43 @@
-@font-face {
-    font-family: 'Russo';
-    src: url(/Fontes/RussoOne-Regular.ttf);
-    font-weight: normal;
-    font-style: normal;
+:root {
+  --color-dominante: #FF8C00;
+  --color-botao: #0E47A1;
+  --color-contraste: #FFEB3B;
+  --color-branco: #F5F5F5;
+  --color-preto: #212121;
+  --color-hover: #E9B27F;
 }
 
-@font-face {
-    font-family: 'OutfitEL';
-    src: url(/Fontes/Outfit-ExtraLight.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'OutfitB';
-    src: url(/Fontes/Outfit-Bold.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'OutfitSB';
-    src: url(/Fontes/Outfit-SemiBold.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-.container-fluid-cards{
-    margin-top: 65px !important;
-    margin-bottom: 20px !important;
+.container-fluid-cards {
+    margin-top: 100px;
+    margin-bottom: 20px;
     width: 100%;
-    margin: auto;
-    height: 107px;
-    padding: auto;
-    border-radius: 10px 10px 10px 10px;
-
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+    gap: 30px;
     background-color: transparent;
 
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.seção-card{
-    font-family: Russo;
-    color: #000000;
+.seção-card {
+    font-family: 'Russo';
+    color: black;
+
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
-}
-
-.seção-card img{
-    width: 30%;
-    height: min-content;
 }
 
 .card1-1, .card1-2, .card1-3, .card1-4 {
+    height: auto;
+    width: 240px;
+    background: var(--color-preto);
+    border: 2px solid var(--color-dominante);
+    border-radius: 14px;
     box-shadow: 0 4px 12px rgba(255, 123, 0, 0.25);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 2px solid rgba(255, 187, 0, 0.845);
-}
-
-.card1-1{
-    height: 380px;
-    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.247);
-    background-color: rgba(255, 187, 0, 0.845);
-    border-radius: 10px 10px 10px 10px;
-    width: 15rem;
-  
-}
-
-.card1-2{
-    height: 380px;
-    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.247);
-    background-color: rgba(255, 187, 0, 0.845);
-    border-radius: 10px 10px 10px 10px;
-    width: 15rem;
-}
-
-
-.card1-3{
-    height: 380px;
-    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.247);
-    background-color: rgba(255, 187, 0, 0.845);
-    border-radius: 10px 10px 10px 10px;
-    width: 15rem;
-}
-
-.card1-4{
-   height: 380px;
-    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.247);
-    background-color: rgba(255, 187, 0, 0.845);
-    border-radius: 10px 10px 10px 10px;
-    width: 15rem;
-   
 }
 
 .card1-1:hover, .card1-2:hover, .card1-3:hover, .card1-4:hover {
@@ -106,54 +45,46 @@
     box-shadow: 0 6px 20px rgba(255, 123, 0, 0.45);
 }
 
-.card-img-top{
-    height: 15rem;
-    width: 15rem;
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 .btn {
-    font-family: Russo;
-    color: #ffffff;
-    padding: 5px 20px 5px 20px;
-    margin-top: 10px;
-    background-color: rgba(0, 0, 212, 0.662);
+    font-family: 'Russo';
+    color: var(--color-branco);
+    background-color: var(--color-botao);
     font-size: 15px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 8px;
+    padding: 6px 18px;
+    margin-top: 12px;
+    border: none;
     transition: all 0.3s ease;
 }
 
 .btn:hover {
     background-color: #1a66ff;
-    box-shadow: 0 0 5px #0E47A1;
+    box-shadow: 0 0 10px var(--color-botao);
 }
 
-.Preco{
-    font-family: Russo;
-    color: rgba(30, 38, 255, 0.755);
+.Preco {
+    font-family: 'Russo';
+    color: var(--color-dominante);
     font-size: 20px;
-
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+    text-align: center;
+    margin-top: 10px;
 }
 
-h6{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-
-    font-family: OutfitEL;
+h6 {
+    font-family: 'OutfitEL';
     font-size: 16px;
+    color: var(--color-branco);
+    text-align: center;
+    margin-top: 8px;
 }
-
-
-
-
 
 
 
