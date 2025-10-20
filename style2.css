@@ -16,17 +16,6 @@ body {
     background-position: center center;
 }
 
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(204, 197, 197, 0.35);
-    z-index: -1;
-}
-
 :root {
   --color-dominante: #FF8C00;
   --color-secundaria: #1A237E;
@@ -289,4 +278,5 @@ header {
 
 .logos img:hover {
     transform: scale(1.1);
+
 }
