@@ -60,6 +60,12 @@
     height: min-content;
 }
 
+.card1-1, .card1-2, .card1-3, .card1-4 {
+    box-shadow: 0 4px 12px rgba(255, 123, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid rgba(255, 187, 0, 0.845);
+}
+
 .card1-1{
     height: 380px;
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.247);
@@ -95,6 +101,11 @@
    
 }
 
+.card1-1:hover, .card1-2:hover, .card1-3:hover, .card1-4:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(255, 123, 0, 0.45);
+}
+
 .card-img-top{
     height: 15rem;
     width: 15rem;
@@ -102,7 +113,7 @@
     border-top-right-radius: 10px;
 }
 
-.btn{
+.btn {
     font-family: Russo;
     color: #ffffff;
     padding: 5px 20px 5px 20px;
@@ -110,12 +121,12 @@
     background-color: rgba(0, 0, 212, 0.662);
     font-size: 15px;
     border-radius: 10px 10px 10px 10px;
+    transition: all 0.3s ease;
 }
 
-button:hover {
-    background-color: rgba(2, 90, 255, 0.662);
-    color: #ffffff;
-    transition-duration: 0.4s;
+.btn:hover {
+    background-color: #1a66ff;
+    box-shadow: 0 0 5px #0E47A1;
 }
 
 .Preco{

@@ -83,6 +83,7 @@ header {
     justify-content: center;
     align-items: inherit;
 }
+
 .menu nav {
     display: inherit;
     gap: 42px;
@@ -101,15 +102,16 @@ header {
     content: " ";
     width: 0px;
     height: 4px;
-    transition: width 0.4s;
+    transition: width 0.3s;
     top: 30px;
     left: 0;
     position: absolute;
-    background-image: linear-gradient(45deg, #ff2500, #e78d44);
+    background-image: linear-gradient(45deg, #ffeb3b, #ff8400);
+
 }
 
 .menu nav a:hover::after {
-    width: 56px;
+    width: 60px;
 }
 
 .menu nav a:last-child:hover::after {
@@ -127,21 +129,27 @@ header {
 .socials button {
     width: 50px;
     height: 50px;
-    background-image: linear-gradient(45deg, #ff2500, #e78d44);
+    background-color: #ff8400;
     border: none;
     border-radius: 15px;
     margin-right: 8px;
     cursor: pointer;
-
+    transition: background-color 0.3s;
 }
 
-.socials button i:hover {
-    color: #e9b27f;
+.socials button:hover {
+    background-color: #1a237e;
+}
+
+.socials button:hover i {
+    color: #ffeb3b;
 }
 
 .socials button i {
     font-size: 28px;
     padding-top: 5px;
+    color: black;
+    transition: color 0.3s;
 }
 
 
@@ -179,61 +187,66 @@ header {
 /* Footer */
 
 .fundofooter {
-    margin-top: 5%;
-
+    margin-top: 120px;
 }
 
 .footer {
-    position: absolute;
     width: 100%;
-    background-color: #000000;
-    background-attachment: scroll;
-    height: auto;
+    background-color: black;
+    color: #F5F5F5;
+    padding: 25px 6%;
+    gap: 20px;
+
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
 }
 
 .titulo {
-    width: inherit;
-    color: #ff8400;
-    display: inherit;
-    align-items: inherit;
-    justify-content: inherit;
-    margin-top: 2%;
+    margin-top: auto;
+    gap: 10px;
+    line-height: 1.4;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .titulo h4 {
-    font-size: 22px;
+    font-size: 20px;
     font-family: OutfitEL;
-    margin-left: 5%;
-}    
+    margin: 0;
+    color: #ffeb3b;
+}
 
 .titulo h3 {
-    font-size: 28px;
+    font-size: 22px;
     font-family: Russo;
-    margin-left: 5%;
+    margin: 0;
+    color: #ff8400;
 }
 
 .logos {
-    max-width: 1000px;
-    display: inherit;
-    justify-content: flex-end center;
+    gap: 25px;
+    margin: 0 auto auto auto;
+
+    display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 
-.logos img{
-    width: 20%
+.logos img {
+    width: 140px;
+    height: auto;
+    transition: transform 0.3s ease;
+
+    display: block;
 }
 
-.logos img:last-child{
-    margin-left: 10%;
-}
-
-.logos img:not(:last-child) {
-    margin-left: 10%;
-
+.logos img:hover {
+    transform: scale(1.1);
 }
 
 
