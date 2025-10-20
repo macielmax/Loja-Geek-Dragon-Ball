@@ -92,6 +92,7 @@ header {
     justify-content: center;
     align-items: inherit;
 }
+
 .menu nav {
     display: inherit;
     gap: 42px;
@@ -142,7 +143,6 @@ header {
     margin-right: 8px;
     cursor: pointer;
     transition: background-color 0.3s;
-
 }
 
 .socials button:hover {
@@ -174,7 +174,6 @@ header {
 .Top {
     max-width: 500px;
     width: inherit;
-
 }
 
 .container {
@@ -278,5 +277,4 @@ header {
 
 .logos img:hover {
     transform: scale(1.1);
-
 }
