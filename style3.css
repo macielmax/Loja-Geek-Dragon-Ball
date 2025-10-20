@@ -95,6 +95,7 @@ header {
     justify-content: center;
     align-items: inherit;
 }
+
 .menu nav {
     display: inherit;
     gap: 42px;
@@ -145,7 +146,6 @@ header {
     margin-right: 8px;
     cursor: pointer;
     transition: background-color 0.3s;
-
 }
 
 .socials button:hover {
@@ -192,14 +192,12 @@ main {
   box-shadow: 0 0 35px rgba(255, 140, 0, 0.5);
 }
 
-
 .titulo-login {
   font-family: 'Russo', sans-serif;
   font-size: 40px;
   color: var(--color-dominante);
   margin-bottom: 25px;
 }
-
 
 .formlogin label {
   font-family: 'OutfitSB';
@@ -217,7 +215,6 @@ small,
   opacity: 0.8;
 }
 
-
 .input-login {
   width: 100%;
   padding: 12px;
@@ -232,9 +229,7 @@ small,
 .input-login:focus {
   border-color: var(--color-secundaria);
   box-shadow: 0 0 8px rgba(26, 35, 126, 0.5);
-  
 }
-
 
 .btn-login {
   background-color: var(--color-dominante);
@@ -254,7 +249,6 @@ small,
   color: black;
   transform: scale(1.05);
 }
-
 
 .formlogin small {
   -webkit-text-fill-color: var(--color-contraste);
