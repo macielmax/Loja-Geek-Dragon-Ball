@@ -14,7 +14,6 @@ body {
     background-position: center center;
 }
 
-
 :root {
   --color-dominante: #FF8C00;
   --color-secundaria: #1A237E;
@@ -91,6 +90,7 @@ header {
     justify-content: center;
     align-items: inherit;
 }
+
 .menu nav {
     display: inherit;
     gap: 42px;
@@ -254,5 +254,3 @@ header {
 .logos img:hover {
     transform: scale(1.1);
 }
-
-
