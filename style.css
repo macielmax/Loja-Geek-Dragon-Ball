@@ -14,6 +14,15 @@ body {
     background-position: center center;
 }
 
+:root {
+  --color-dominante: #FF8C00;
+  --color-secundaria: #1A237E;
+  --color-contraste: #FFEB3B;
+  --color-branco: #F5F5F5;
+  --color-preto: #212121;
+  --color-hover: #E9B27F;
+}
+
 @font-face {
     font-family: 'Russo';
     src: url(Fontes/RussoOne-Regular.ttf);
@@ -42,50 +51,53 @@ body {
     font-style: normal;
 }
 
+/* Header */
+
 .container-fluid {
     max-width: 1200px;
     width: 100%;
     margin: auto;
     height: 107px;
+    padding: 0;
 
 
     display: flex;
     align-items: center;
-    justify-content: center;
     justify-content: space-around;
     flex-direction: row;
 }
 
 header {
     background-color: black;
-    width: 100%;
+    width: inherit;
     height: 95px;
 }
 
 .logo img {
-    width: 90%;
-    height: auto;
+    max-width: 204px;
+    width: inherit;
+    vertical-align: 0;
     padding-bottom: 14%;
 }
 
 .menu {
-    max-width: 100%;
-    width: 420px;
-    padding-top: 3px;
+    max-width: 828px;
     width: 150%;
+    padding-top: 3px;
     font-family: Russo;
 
-    display: flex;
+    display: inherit;
     justify-content: center;
-    align-items: center;
+    align-items: inherit;
 }
+
 .menu nav {
-    display: flex;
+    display: inherit;
     gap: 42px;
 }
 
 .menu nav a{
-    color: #ff8400;
+    color: var(--color-dominante);
     text-decoration: none;
     font-size: 24px;
     height: auto;
@@ -97,15 +109,15 @@ header {
     content: " ";
     width: 0px;
     height: 4px;
-    transition: width 0.4s;
+    transition: width 0.3s;
     top: 30px;
     left: 0;
     position: absolute;
-    background-image: linear-gradient(45deg, #ff2500, #e78d44);
+    background-image: linear-gradient(45deg, var(--color-contraste), var(--color-dominante));
 }
 
 .menu nav a:hover::after {
-    width: 56px;
+    width: 60px;
 }
 
 .menu nav a:last-child:hover::after {
@@ -113,32 +125,41 @@ header {
 }
 
 .menu nav a:hover {
-    color: #e9b27f;
+    color: var(--color-hover);
 }
 
 .socials {
-    display: flex;
+    display: inherit;
 }
 
 .socials button {
     width: 50px;
     height: 50px;
-    background-image: linear-gradient(45deg, #ff2500, #e78d44);
+    background-color: var(--color-dominante);
     border: none;
     border-radius: 15px;
     margin-right: 8px;
     cursor: pointer;
-
+    transition: background-color 0.3s;
 }
 
-.socials button i:hover {
-    color: #e9b27f;
+.socials button:hover {
+    background-color: var(--color-secundaria);
+}
+
+.socials button:hover i {
+    color: var(--color-contraste);
 }
 
 .socials button i {
     font-size: 28px;
     padding-top: 5px;
+    color: black;
+    transition: color 0.3s;
 }
+
+
+/* Carrossel */
 
 .carousel {
     max-width: 1582px;
@@ -150,72 +171,86 @@ header {
 }
 
 .carousel-inner {
-    width: 100%;
+    width: inherit;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);;
     object-fit: contain;
 }
 
 .carousel-item img {
-    width: 100%;
-    object-fit: contain;
+    width: inherit;
+    object-fit: inherit;
     height: auto;
     max-height: 550px;
 }
 
+/* Divisor Shenlong */
+
+.container-fluid-cards .seção-card img {
+    max-width: 200px;
+    width: 100%;
+}
+
+/* Footer */
 
 .fundofooter {
-    margin-top: 5%;
-
+    margin-top: 125px;
 }
 
 .footer {
-    position: absolute;
     width: 100%;
-    background-color: #000000;
-    background-attachment: scroll;
-    height: auto;
+    background-color: black;
+    color: var(--color-branco);
+    padding: 25px 6%;
+    gap: 20px;
+
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
 }
 
 .titulo {
-    width: 100%;
-    color: #ff8400;
+    margin-top: auto;
+    gap: 10px;
+    line-height: 1.4;
+
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start;
-    margin-top: 2%;
 }
 
 .titulo h4 {
-    font-size: 22px;
+    font-size: 20px;
     font-family: OutfitEL;
-    margin-left: 5%;
-}    
+    margin: 0;
+    color: var(--color-contraste);
+}
 
 .titulo h3 {
-    font-size: 28px;
+    font-size: 22px;
     font-family: Russo;
-    margin-left: 5%;
+    margin: 0;
+    color: var(--color-dominante);
 }
 
 .logos {
-    max-width: 1000px;
+    gap: 25px;
+    margin: 0 auto auto auto;
+
     display: flex;
-    justify-content: flex-end center;
     align-items: center;
+    justify-content: flex-end;
 }
 
-.logos img{
-    width: 20%
+.logos img {
+    width: 140px;
+    height: auto;
+    transition: transform 0.3s ease;
+
+    display: block;
 }
 
-.logos img:last-child{
-    margin-left: 10%;
-}
-
-.logos img:not(:last-child) {
-    margin-left: 10%;
+.logos img:hover {
+    transform: scale(1.1);
 }

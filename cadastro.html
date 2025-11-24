@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
+	
     <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
 
     <!--Css-->
     <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="loading.css">
 
     <!--Icones-->
     <script src="https://kit.fontawesome.com/0c7fbaa498.js" crossorigin="anonymous"></script>
 
-    <!--js-->
-    <link rel="stylesheet" href="login.js">
-    <script src="login.js"></script>
+    <!--Icone Aba-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-</head>
 
+</head>
 <body>
+
+    <!--Loading-->
+    <div class="preloader" id="preloader">
+  		<div class="loader" id="loader"></div>
+	</div>
 
     <!--Header-->
     <header>
@@ -32,8 +37,8 @@
             <div class="menu">
                 <nav>
                     <a href="index.html" target="_self">Home</a>
-                    <a href="sobre.html" target="_blank">Sobre</a>
-                    <a href="https://github.com/PedHenSilva/Loja-Geek-Dragon-Ball" target="_blank">GitHub</a>
+                    <a href="sobre.html" target="_self">Sobre</a>
+                    <a href="https://github.com/PedHenSilva/Loja-Geek-Dragon-Ball" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </nav>
             </div>
             <div class="socials">
@@ -41,47 +46,67 @@
                     <i class="fa-solid fa-cart-shopping"></i>
                 </button>
 
-                <a href="cadastro.html">
+                <a href="cadastro.html" target="_blank" rel="noopener noreferrer">
                     <button>
                         <i class="fa-solid fa-user"></i>
                     </button>
                 </a>
-            </div>
+            </div>    
         </div>
     </header>
 
     <!--Login-->
-
     <main>
         <div class="login-container">
             <form class="formlogin" onsubmit="logar(event)">
                 <h1 class="titulo-login">Entrar</h1>
                 <div class="form-group">
                     <label for="email">E-mail</label>
-                    <input type="Email" class="form-control input-login" id="email" aria-describedby="ajudaEmail"
-                        placeholder="E-mail">
-                    <p><small>Esse e-mail não será compartilhado com ninguém.</small></p>
+                    <input type="Email" class="form-control input-login" id="email" aria-describedby="ajudaEmail" placeholder="Insira seu e-mail">
+                    <p><small>Logins autorizados estão no README do GitHub.</small></p>
                 </div>
                 <div class="form-group">
                     <label for="senha">Senha</label>
-                    <input type="password" class="form-control input-login" id="senha" placeholder="Senha">
-                    <small id="ajudaSenha" class="form-text text-muted">Senha com mínimo de 6 caracteres.</small>
+                    <input type="password" class="form-control input-login" id="senha" placeholder= "Insira sua senha">
+                    <small id="ajudaSenha" class="form-text text-muted">Senha contém no máximo 5 caracteres.</small>
                 </div>
                 <button type="button" class="btn-login" onclick="login()">Logar</button>
             </form>
-
         </div>
     </main>
 
+    <!--Footer-->
+    <footer>
+        <div class="fundofooter">
+            <div class="footer">            
+                <div class="titulo">
+                    <h4>
+                        Av. Luiz Merenda, 443 - Campanário, Diadema
+                    </h4>
+                    <h3>
+                        Copyright © 2025 | Todos os direitos reservados.
+                    </h3>
+                </div>
+                <div class="logos">
+                    <img src="img/DBlogo.png" alt="DBClássico">
+                    <img src="img/DBZLogo.png" alt="DragonBallZ">
+                    <img src="img/DBSLogo.png" alt="DragonBallSuper">
+                </div>
+            </div>  
+        </div>
+    </footer>
 
     <!--Site Icones Script-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
+    <!--Script Preloader(Loading)-->
+    <script src="script_preloader.js"></script>
+
+    <!--Script Login-->
+    <script src="login.js"></script>
 
 </body>
-
 </html>
+
+

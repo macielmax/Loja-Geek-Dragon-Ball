@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
+	
     <!--Icones-->
     <script src="https://kit.fontawesome.com/0c7fbaa498.js" crossorigin="anonymous"></script>
 
     <!--Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
     <!--Css-->
     <link rel="stylesheet" href="scroll.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="loading.css">
+    
+    <!--Icone Aba-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DragonBall</title>
+    <title>DB Geek | Official Shop</title>
+    
 </head>
-
 <body>
 
+    <!--Loading-->
+    <div class="preloader" id="preloader">
+  		<div class="loader" id="loader"></div>
+	</div>
+    
     <!--Header-->
     <header>
         <div class="container-fluid">
@@ -30,21 +39,20 @@
             <div class="menu">
                 <nav>
                     <a href="index.html" target="_self">Home</a>
-                    <a href="sobre.html" target="_blank">Sobre</a>
-                    <a href="https://github.com/PedHenSilva/Loja-Geek-Dragon-Ball" target="_blank">GitHub</a>
+                    <a href="sobre.html" target="_self">Sobre</a>
+                    <a href="https://github.com/PedHenSilva/Loja-Geek-Dragon-Ball" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </nav>
             </div>
             <div class="socials">
                 <button>
                     <i class="fa-solid fa-cart-shopping"></i>
                 </button>
-
-                <a href="cadastro.html">
+                <a href="cadastro.html" target="_blank" rel="noopener noreferrer">
                     <button>
                         <i class="fa-solid fa-user"></i>
                     </button>
                 </a>
-            </div>
+            </div>    
         </div>
     </header>
 
@@ -58,86 +66,84 @@
                 <img src="img/freeza.png" alt="FreezaIcone">
             </div>
             <div class="scroll-item">
-                <img src="img/gohan2.png" alt="FreezaIcone">
+                <img src="img/gohan2.png" alt="GohanIcone">
             </div>
             <div class="scroll-item">
-                <img src="img/kuririn.png" alt="FreezaIcone">
+                <img src="img/kuririn.png" alt="KuririnIcone">
             </div>
             <div class="scroll-item">
-                <img src="img/majinboo.png" alt="FreezaIcone">
+                <img src="img/majinboo.png" alt="MJIcone">
             </div>
             <div class="scroll-item">
-                <img src="img/piccolo2.png" alt="FreezaIcone">
+                <img src="img/piccolo2.png" alt="PiccoloIcone">
             </div>
             <div class="scroll-item">
-                <img src="img/vegeta.png" alt="FreezaIcone">
+                <img src="img/vegeta.png" alt="VegetaIcone">
             </div>
             <div class="scroll-item">
-                <img src="img/cell.png" alt="FreezaIcone">
+                <img src="img/cell.png" alt="CellIcone">
             </div>
             <div class="scroll-item">
-                <img src="img/goku.png" alt="FreezaIcone">
+                <img src="img/goku.png" alt="GokuIcone">
             </div>
             <div class="scroll-item">
                 <img src="img/freeza.png" alt="FreezaIcone">
             </div>
             <div class="scroll-item">
-                <img src="img/gohan2.png" alt="FreezaIcone">
+                <img src="img/gohan2.png" alt="GohanIcone">
             </div>
             <div class="scroll-item">
-                <img src="img/kuririn.png" alt="FreezaIcone">
+                <img src="img/kuririn.png" alt="KuririnIcone">
+            </div>
+             <div class="scroll-item">
+                <img src="img/majinboo.png" alt="MJIcone">
             </div>
             <div class="scroll-item">
-                <img src="img/majinboo.png" alt="FreezaIcone">
+                <img src="img/piccolo2.png" alt="PiccoloIcone">
             </div>
             <div class="scroll-item">
-                <img src="img/piccolo2.png" alt="FreezaIcone">
+                <img src="img/vegeta.png" alt="VegetaIcone">
             </div>
-            <div class="scroll-item">
-                <img src="img/vegeta.png" alt="FreezaIcone">
-            </div>
-            <div class="scroll-item">
-                <img src="img/cell.png" alt="FreezaIcone">
+             <div class="scroll-item">
+                <img src="img/cell.png" alt="CellIcone">
             </div>
         </div>
     </div>
-
 
     <!--Carrossel-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="img/DragonBallSlide1.png" alt="Primeiro Slide">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/DragonBallSlide1.png" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/DBClothing.png" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/Slide3_waifu2x_photo_noise3.png" alt="Terceiro Slide">
+                </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/DBClothing.png" alt="Segundo Slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/Slide3_waifu2x_photo_noise3.png" alt="Terceiro Slide">
-            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Próximo</span>
-        </a>
-    </div>
 
     <!--cards-1-->
-
     <div class="container-fluid-cards">
         <div class="seção-card">
-            <img src="img/ShenlongDireita.png" alt="">
+            <img src="img/Shenlong Direita1.png" alt="Divisor Shenlong">
             <h1>Action Figures</h1>
-            <img src="img/ShenlongEsquerda.png" alt="">
+            <img src="img/Shenlong Esquerda1.png" alt="Divisor Shenlong">
         </div>
     </div>
 
@@ -145,9 +151,9 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
             <div class="col-sm">
                 <div class="card1-1">
-                    <img src="img/af1.jpeg" class="card-img-top" alt="...">
+                    <img src="img/af1.jpeg" class="card-img-top" alt="Goku Ssj3">
                     <div class="card-body">
-                        <h6 class="card-title"><strong>AF - Goku SS3</strong></h6>
+                        <h6 class="card-title"><strong>AF - Goku SSJ3</strong></h6>
                         <R1 class="Preco">R$299,99</R1>
                         <button type="button" class="btn">Adicionar ao Carrinho</button>
                     </div>
@@ -155,11 +161,11 @@
             </div>
             <div class="col-sm">
                 <div class="card1-2">
-                    <img src="img/af2.jpeg" class="card-img-top" alt="...">
+                    <img src="img/af2.jpeg" class="card-img-top" alt="GokuBulma">
                     <div class="card-body">
                         <div>
-                            <h6 class="card-title"><strong>AF - Goku e Bulma Criança</strong></h6>
-                            <R1 class="Preco">R$249,99</R1>
+                        <h6 class="card-title"><strong>AF - Goku e Bulma Criança</strong></h6>
+                        <R1 class="Preco">R$249,99</R1>
                         </div>
                         <button type="button" class="btn">Adicionar ao Carrinho</button>
                     </div>
@@ -167,7 +173,7 @@
             </div>
             <div class="col-sm">
                 <div class="card1-3">
-                    <img src="img/af3.jpeg" class="card-img-top" alt="...">
+                    <img src="img/af3.jpeg" class="card-img-top" alt="GokuMUI">
                     <div class="card-body">
                         <h6 class="card-title"><strong>AF - Goku Instinto Superior</strong></h6>
                         <R1 class="Preco">R$120,00</R1>
@@ -177,7 +183,7 @@
             </div>
             <div class="col-sm">
                 <div class="card1-4">
-                    <img src="img/af4.jpeg" class="card-img-top" alt="...">
+                    <img src="img/af4.jpeg" class="card-img-top" alt="SrKaioh">
                     <div class="card-body">
                         <h6 class="card-title"><strong>AF - Senhor Kaioh do Oeste</strong></h6>
                         <R1 class="Preco">R$90,00</R1>
@@ -187,22 +193,21 @@
             </div>
         </div>
     </div>
-
-    <!--cards-2-->
-
-    <div class="container-fluid-cards">
+	
+	<!--cards-2-->
+	<div class="container-fluid-cards">
         <div class="seção-card">
-            <img src="img/ShenlongDireita.png" alt="">
+            <img src="img/Shenlong Direita1.png" alt="Divisor Shenlong">
             <h1>Camisas</h1>
-            <img src="img/ShenlongEsquerda.png" alt="">
+            <img src="img/Shenlong Esquerda1.png" alt="Divisor Shenlong">
         </div>
     </div>
 
-    <div class="container text-center">
+     <div class="container text-center">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
             <div class="col-sm">
                 <div class="card1-1">
-                    <img src="img/ca1.jpeg" class="card-img-top" alt="...">
+                    <img src="img/ca1.jpeg" class="card-img-top" alt="CamisaMUI">
                     <div class="card-body">
                         <h6 class="card-title"><strong>Camisa - Goku Instinto</strong></h6>
                         <R1 class="Preco">R$34,99</R1>
@@ -212,9 +217,9 @@
             </div>
             <div class="col-sm">
                 <div class="card1-2">
-                    <img src="img/ca2.jpeg" class="card-img-top" alt="...">
+                    <img src="img/ca2.jpeg" class="card-img-top" alt="GokuOS">
                     <div class="card-body">
-                        <h6 class="card-title"><strong>Camisa - Goku old-style</strong></h6>
+                        <h6 class="card-title"><strong>Camisa - Goku Old-Style</strong></h6>
                         <R1 class="Preco">R$34,99</R1>
                         <button type="button" class="btn">Adicionar ao Carrinho</button>
                     </div>
@@ -222,9 +227,9 @@
             </div>
             <div class="col-sm">
                 <div class="card1-3">
-                    <img src="img/ca3.jpeg" class="card-img-top" alt="...">
+                    <img src="img/ca3.jpeg" class="card-img-top" alt="MiraiTrunks">
                     <div class="card-body">
-                        <h6 class="card-title"><strong>Camisa - Trunks-futuro</strong></h6>
+                        <h6 class="card-title"><strong>Camisa - Trunks Futuro</strong></h6>
                         <R1 class="Preco">R$49,99</R1>
                         <button type="button" class="btn">Adicionar ao Carrinho</button>
                     </div>
@@ -232,9 +237,9 @@
             </div>
             <div class="col-sm">
                 <div class="card1-4">
-                    <img src="img/ca4.jpeg" class="card-img-top" alt="...">
+                    <img src="img/ca4.jpeg" class="card-img-top" alt="CamisãoGoku">
                     <div class="card-body">
-                        <h6 class="card-title"><strong>Camisão - Goku Unisex</strong></h6>
+                        <h6 class="card-title"><strong>Camisão - Goku Unissex</strong></h6>
                         <R1 class="Preco">R$49,99</R1>
                         <button type="button" class="btn">Adicionar ao Carrinho</button>
                     </div>
@@ -244,12 +249,11 @@
     </div>
 
     <!--cards-3-->
-
-    <div class="container-fluid-cards">
+	<div class="container-fluid-cards">
         <div class="seção-card">
-            <img src="img/ShenlongDireita.png" alt="">
+            <img src="img/Shenlong Direita1.png" alt="Divisor Shenlong">
             <h1>Acessórios</h1>
-            <img src="img/ShenlongEsquerda.png" alt="">
+            <img src="img/Shenlong Esquerda1.png" alt="Divisor Shenlong">
         </div>
     </div>
 
@@ -257,7 +261,7 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
             <div class="col-sm">
                 <div class="card1-1">
-                    <img src="img/ace1.jpeg" class="card-img-top" alt="...">
+                    <img src="img/ace1.jpeg" class="card-img-top" alt="Esferas">
                     <div class="card-body">
                         <h6 class="card-title"><strong>Esferas do dragão</strong></h6>
                         <R1 class="Preco">R$350,00</R1>
@@ -267,7 +271,7 @@
             </div>
             <div class="col-sm">
                 <div class="card1-2">
-                    <img src="img/ace2.jpeg" class="card-img-top" alt="...">
+                    <img src="img/ace2.jpeg" class="card-img-top" alt="Colar">
                     <div class="card-body">
                         <h6 class="card-title"><strong>Colar do dragão</strong></h6>
                         <R1 class="Preco">R$19,99</R1>
@@ -277,7 +281,7 @@
             </div>
             <div class="col-sm">
                 <div class="card1-3">
-                    <img src="img/ace3.jpeg" class="card-img-top" alt="...">
+                    <img src="img/ace3.jpeg" class="card-img-top" alt="Pulseira">
                     <div class="card-body">
                         <h6 class="card-title"><strong>Pulseira do Dragão</strong></h6>
                         <R1 class="Preco">R$10,00</R1>
@@ -287,7 +291,7 @@
             </div>
             <div class="col-sm">
                 <div class="card1-4">
-                    <img src="img/ace4.jpeg" class="card-img-top" alt="...">
+                    <img src="img/ace4.jpeg" class="card-img-top" alt="Chaveiro">
                     <div class="card-body">
                         <h6 class="card-title"><strong>Chaveiro - Goku Chibi</strong></h6>
                         <R1 class="Preco">R$10,00</R1>
@@ -301,49 +305,40 @@
     <!--Footer-->
     <footer>
         <div class="fundofooter">
-            <div class="footer">
+            <div class="footer">            
                 <div class="titulo">
-                    <div>
-                        <h4>
-                            Av. Luiz Merenda, 443 - Campanário, Diadema
-                        </h4>
-                        <br>
-                        <h3>
-                            Copyright © 2025 | Todos os direitos reservados.
-                        </h3>
-                    </div>
-                    <div class="logos">
-                        <img src="img/DBlogo.png" alt="">
-                        <img src="img/DBZLogo.png" alt="">
-                        <img src="img/DBSLogo.png" alt="">
-                    </div>
+                    <h4>
+                        Av. Luiz Merenda, 443 - Campanário, Diadema
+                    </h4>
+                    <h3>
+                        Copyright © 2025 | Todos os direitos reservados.
+                    </h3>
                 </div>
-            </div>
+                <div class="logos">
+                    <img src="img/DBlogo.png" alt="DBClássico">
+                    <img src="img/DBZLogo.png" alt="DragonBallZ">
+                    <img src="img/DBSLogo.png" alt="DragonBallSuper">
+                </div>
+            </div>  
+        </div>
     </footer>
 
-
     <!--Site Icones Script-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
     <!--Bootstrap Script-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-
-
-    <script src="code.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <!--Script Preloader(Loading)-->
+    <script src="script_preloader.js"></script>
 
 </body>
-
 </html>
+
+
+
+
+
